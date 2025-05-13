@@ -193,7 +193,7 @@ import java.io.*;
 			@Override
 			public int compareTo(DijkstraPair o) 
 			{
-				return o.cost - this.cost;
+				return this.cost - o.cost;
 			}
 		}
 		
